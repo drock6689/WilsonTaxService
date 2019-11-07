@@ -1,0 +1,45 @@
+.forms-links-container {
+    width: 100%;
+    margin-top: 4em;
+    display: flex;
+}
+
+#forms-container, #links-container {
+    width: 50%;
+}
+
+#links-container {
+    border-left: 1px solid rgb(189, 188, 188);
+    padding-left: 1em;
+}
+
+.forms-links-div {
+    margin: 1em 0em 1em 0em;
+}
+
+.forms-links-link {
+    text-decoration: none;
+}
+
+.forms-links-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 530px) {
+    .forms-links-container {
+        display: block;
+    }
+
+    #forms-container {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    #links-container {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid rgb(189, 188, 188);
+        padding-left: none;
+        padding-top: 1em;
+    }
+}

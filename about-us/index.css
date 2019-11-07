@@ -1,0 +1,30 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container {
+    width: 90%;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.about-container {
+    margin: auto;
+    display: flex;
+}
+
+.about-description-container {
+    width: 60%;
+    margin: auto;
+}
+
+.contact-info-container {
+    width: 40%;
+    margin: auto;
+    padding-left: 10em;
+}
+
+img {
+    width: 100%;
+}
